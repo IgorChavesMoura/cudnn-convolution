@@ -190,9 +190,6 @@ void convolution(const char* img_path,const char* output_path){
     
     save_image(output_path, h_output, height, width);
 
-    //free(output_file);
-    //free(output_dir);
-    //free(output_path);
 
     delete[] h_output;
 
@@ -256,7 +253,6 @@ int main(int argc, char** argv){
 
     return EXIT_SUCCESS;
 
-    //convolution("./inputs/nvidia.png","./outputs/cudnn-1.png");
     
 
 }
